@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.divider {
+  margin-bottom: 25px;
+}
+
 :root {
   --very-dark-blue: #0a0a23;
   --white: #ffffff;
@@ -14,23 +18,30 @@
 }
 
 body {
-  background-color: var(--very-dark-blue);
+  background-color: #80d785;
+  background-image: linear-gradient(to right, #2782e2, #80d785);
   text-align: center;
   color: var(--white);
+
 }
 
 h1 {
   margin: 15px 0 20px;
 }
 
+.options-container h2 {
+    margin-bottom: 20px;
+    }
+
 .btn {
   cursor: pointer;
-  width: 100px;
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
   margin: 10px;
   color: var(--very-dark-blue);
-  background-color: var(--golden-yellow);
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border-color: var(--golden-yellow);
+  background-color: rgb(239, 244, 255);
+  border-color: rgb(3, 28, 47);
   border-width: 3px;
 }
 
@@ -40,9 +51,9 @@ h1 {
 
 .rules-container {
   padding: 10px 0;
-  margin: auto;
+  margin: 150px auto;
   border-radius: 15px;
-  border: 5px solid var(--yellow);
+  border: 3px solid rgb(3, 28, 47);;
   background-color: var(--white);
   color: var(--very-dark-blue);
 }
@@ -64,8 +75,8 @@ h1 {
 .score-container {
   display: flex;
   justify-content: space-around;
-  margin: 30px 0;
-  font-size: 1.2rem;
+  margin-bottom: 70px;
+  font-size: 1.7rem;
 }
 
 .score {
@@ -73,7 +84,7 @@ h1 {
 }
 
 .results-container {
-  font-size: 1.3rem;
+  font-size: 10rem;
   margin: 15px 0;
 }
 
